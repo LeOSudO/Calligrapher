@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Trebuchet MS", "Ubuntu Mono", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+}
+
+.content img {
+  width: 250px;
+  height: auto;
+  margin-right: 50px;
+}
+
+.text h2 {
+  font-size: 4em;
+  color: wheat;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 1.5em;
+  color: whitesmoke;
+}
