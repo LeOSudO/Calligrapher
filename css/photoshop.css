@@ -9,25 +9,28 @@
 .hero {
   min-width: 100vw;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: rgb(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+  background-color: #777;
 }
 
 .hero h2 {
   font-size: 3em;
   color: hsl(0, 0%, 95%);
+  text-align: center;
+  width: 80%;
+  margin: auto;
   margin-bottom: 10px;
   margin-top: 10px;
-  text-align: center;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  padding-bottom: 20px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: center;
 }
 
 .grid img {
@@ -44,23 +47,23 @@
 
 @media screen and (max-width: 1180px) {
   .grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 970px) {
   .grid {
-    width: 85%;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .grid {
-    width: 75%;
+    width: 80%;
+    grid-template-columns: 1fr;
     margin-left: auto;
     margin-right: auto;
   }
