@@ -263,6 +263,11 @@ nav ul a:hover {
   position: relative;
 }
 
+.worked-with-1 .photoshop,
+.worked-with-1 .illustrator {
+  width: 80px;
+}
+
 .worked-with-1 h3 {
   padding: 20px 0;
   letter-spacing: 1.2px;
